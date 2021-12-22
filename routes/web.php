@@ -3,7 +3,6 @@
 use App\Http\Controllers\ExcelController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
-use App\Http\Controllers\ImageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,6 +30,6 @@ Route::post('/todo/update', [TodoController::class, 'update']);
 Route::get('/todo/delete/{id}', [TodoController::class, 'delete']);
 
 
-Route::get('/excelview', [ExcelController::class, 'index']);
+Route::get('/excel', [ExcelController::class, 'index']);
 Route::get('export', [ExcelController::class, 'export'])->name('export');
 Route::post('import', [ExcelController::class, 'import'])->name('import');

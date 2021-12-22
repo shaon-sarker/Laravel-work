@@ -39,9 +39,6 @@
                         <li class="nav-item">
                             <a href="" class="nav-link">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="{{ route('multipleimage') }}" class="nav-link">Multiple Image View</a>
-                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
