@@ -1,16 +1,16 @@
-@extends('layouts.dashboad')
-@section('dashboard')
+@extends('layouts.app')
+{{-- @section('dashboard')
 active
-@endsection
+@endsection --}}
 @section('content')
-@include('layouts.nav')
+{{-- @include('layouts.nav') --}}
 <!-- ########## START: MAIN PANEL ########## -->
-<div class="sl-mainpanel">
+{{-- <div class="sl-mainpanel">
     <nav class="breadcrumb sl-breadcrumb">
       <a class="breadcrumb-item" href="index.html">Starlight</a>
       <a class="breadcrumb-item" href="index.html">Pages</a>
       <span class="breadcrumb-item active">Blank Page</span>
-    </nav>
+    </nav> --}}
 
     <div class="sl-pagebody">
         <div class="container">
